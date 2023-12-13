@@ -1,0 +1,112 @@
+.sidebar-container {
+    width: 20vw;
+    height: 100vh;
+    padding: 25px 12px 25px 24px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.sidebar-header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-logo-wrapper {
+    display: flex;
+}
+.sidebar-logo {
+    width: 40px;
+    height: 40px;
+}
+.sidebar-logo-text {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--lb-blue);
+    margin-left: 12px;
+}
+.sidebar-collapse-btn {
+    text-decoration: none;
+    color: var(--lb-white);
+}
+
+
+.sidebar-content {
+    width: 100%;
+    height: 80vh;
+    padding: 40px 12px;
+    box-sizing: border-box;
+}
+.profile-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--lb-white);
+    border-bottom: 1.5px solid var(--tertiary-bg);
+    padding-bottom: 16px;
+}
+.user-wrapper {
+    display: flex;
+    align-items: center;
+}
+.user-pic {
+    font-size: 28px;
+    color: var(--lb-gray);
+}
+.username {
+    font-size: 18px;
+    margin-left: 12px;
+}
+.profile-menu-btn {
+    color: var(--lb-gray);
+    text-decoration: none;
+}
+
+.new-chat-btn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px 0 28px;
+    margin: 12px 0;
+    color: var(--lb-gray);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.new-chat-btn-text {
+    margin-left: 8px;
+}
+.new-chat-btn:hover {
+    background-color: var(--tertiary-bg);
+}
+.chat-list {
+    height: 85%;
+    overflow-y: scroll;
+}
+
+.sidebar-footer {
+    width: 100%;
+    height: 10vh;
+    padding-top: 16px;
+    padding-left: 12px;
+    border-top: 1.5px solid var(--tertiary-bg);
+    align-items: center;
+}
+.settings-btn {
+    background-color: var(--secondary-bg);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--lb-white);
+    text-decoration: none;
+}
+.settings-btn:hover {
+    background-color: var(--lb-blue);
+}

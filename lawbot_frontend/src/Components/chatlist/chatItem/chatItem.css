@@ -1,0 +1,21 @@
+.chat-btn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px 0 20px;
+    margin: 12px 0;
+    color: var(--lb-gray);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.chat-title {
+    margin-left: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.chat-btn:hover {
+    background-color: var(--tertiary-bg);
+}

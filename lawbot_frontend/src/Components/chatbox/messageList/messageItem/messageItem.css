@@ -1,0 +1,27 @@
+.message-container {
+    margin: 32px 0 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.message-text {
+    background-color: var(--tertiary-bg);
+    max-width: calc(100% - 300px);
+    padding: 25px;
+    border-radius: 16px;
+    margin: 0 12px;
+}
+
+.incoming {
+    flex-direction: row-reverse;
+}
+
+.outgoing {
+    flex-direction: row;
+}
+
+.message-logo {
+    width: 32px;
+    height: 32px;
+}

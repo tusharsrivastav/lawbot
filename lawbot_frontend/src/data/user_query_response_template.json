@@ -1,0 +1,22 @@
+[
+  {
+    "user_query": "What does the law say regarding employment of women in mines",
+    "response": "Initially, women were only allowed to work in a mine above ground except between 6PM and 7AM. After a governmnet circular in 2019, they can now be employed in opencast mines during night hours also and in underground mines at any time and during night hours for managerial work."
+  },
+  {
+    "user_query": "Hello",
+    "response": "Hi. I am Lawbot. Ask me anything about the mining industry and I will answer you."
+  },
+ {
+   "user_query": "What is the law regarding compensations paid during acquisition of land?",
+   "response": "Before taking any action that could potentially cause damage to the property, the competent authority shall pay reimbursements."
+ },
+ {
+   "user_query": "What is the provision for rehabilitation and resettlement?",
+   "response": "The Administrator for Rehabilitation and Resettlement shall conduct a survey and undertake a census of the affected families and based on it, prepare a draft\nRehabilitation and Resettlement Scheme, which shall include particulars of therehabilitation and resettlement entitlements of each land owner and landless whose livelihoods are primarily dependent on the lands being acquired."
+ },
+ {
+   "user_query": "Who is authorised to maintain law and order at a mine?",
+   "response": "The Central Government appoints a CHief Inspector or an Inspector as per prescibed qualifications who is responsible for maintaining law and order at mines."
+ }
+]

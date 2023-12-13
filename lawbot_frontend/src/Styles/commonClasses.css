@@ -1,0 +1,8 @@
+.bg-blue {
+    background-color: var(--primary-bg);
+}
+.absolute-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
